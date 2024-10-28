@@ -1,4 +1,63 @@
+
+section {
+    max-width: 70%;
+    margin: 5% auto;
+    padding: 30px;
+    background: #ffffffa2;
+}
+
 .container-comparation{
-    background: #fff;
     padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-comparation h6{
+    font-size: 25px;
+    text-align: center;
+}
+
+.linear{
+    border: solid 1px #65646424;
+}
+
+.container-comparation .file-items{
+    border: solid 1px #65646424;
+    padding: 20px;
+    max-width: 40%;
+    height: 350px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.container-files img{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-files input{
+    background: none;
+}
+
+.btn-comparation{
+    text-align: center;  
+}
+
+.btn-comparation button{
+    padding: 25px;
+    font-size: 20px;
+    border: solid 1px rgb(46, 45, 45);
+    border-radius: 20px;
+    background: rgb(92, 3, 3);
+    color: #fff;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.btn-comparation button:hover{
+    transform: scale(1.1);
+    background: rgb(43, 0, 0);
 }

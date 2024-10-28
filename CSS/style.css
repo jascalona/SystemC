@@ -75,10 +75,13 @@ main .contenido-text p{
     border: solid 1px rgb(46, 45, 45);
     border-radius: 20px;
     background: rgb(92, 3, 3);
+    transition: transform 0.3s;
     color: #fff;
+    cursor: pointer;
 }
 
 .btn-convertidor button:hover{
+    transform: scale(1.1);
     background: rgb(43, 0, 0);
 }
 
